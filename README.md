@@ -10,11 +10,14 @@ Arquitetura usada:
   Foi utilizado dois projetos distintos, além da criação do banco de dado, são eles:
 
   ApiUsuarios =>
-  Para serviço que realiza o cadastro das informações, bem como os cálculos responsáveis pela ja mencionada lista de amigos mais próximos,   foi criado uma api em Asp.Net Core.
+   - Serviço que realiza o cadastro das informações, bem como os cálculos responsáveis pela ja mencionada lista de amigos mais próximos,   foi criado uma api em Asp.Net Core.
   
-  AmigosApp => WindowsForms (C#)
+  AmigosApp => 
+  WindowsForms (C#)
 
-  GlobalTIBD => Banco de dados SQL Server 2017. Script de criação do banco("GlobalTIBD") e tabela("Usuarios") se encontra no arquivo  ScriptCriacaoBDeTabela_TesteGlobalTI.sql
+  Repositório => 
+   - Banco de dados SQL Server 2017 (Acesso via seriço feito com Entity Framework)
+  Script de criação do banco("GlobalTIBD") e tabela("Usuarios") se encontra no arquivo  ScriptCriacaoBDeTabela_TesteGlobalTI.sql
 
 Observações:
 ------------
